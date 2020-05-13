@@ -5,7 +5,7 @@ var ctx = canvas.getContext('2d');
 var img = new Image();
 img.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img,ctx,"#fff",'p3.jpg',335,470));
+window.addEventListener('load', DrawPlaceholder(img,ctx,"#fff",'p3.jpg',345,470));
 
 
 var canvas1 = document.getElementById('imageCanvas1');
@@ -13,7 +13,7 @@ var ctx1 = canvas1.getContext('2d');
 var img1 = new Image();
 img1.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img1,ctx1,"#7F7F7F",'p2.jpg',350,470));
+window.addEventListener('load', DrawPlaceholder(img1,ctx1,"#7F7F7F",'p2.jpg',360,470));
 
 
 var canvas2 = document.getElementById('imageCanvas2');
@@ -38,7 +38,7 @@ var ctx4 = canvas4.getContext('2d');
 var img4 = new Image();
 img4.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img4,ctx4,"#fff",'p5.jpg',350,470));
+window.addEventListener('load', DrawPlaceholder(img4,ctx4,"#fff",'p5.jpg',360,470));
 
 
 
@@ -47,7 +47,7 @@ var ctx5 = canvas5.getContext('2d');
 var img5 = new Image();
 img5.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img5,ctx5,"#fff",'p6.jpg',350,510));
+window.addEventListener('load', DrawPlaceholder(img5,ctx5,"#003B53",'p6.jpg',360,510));
 
 
 
